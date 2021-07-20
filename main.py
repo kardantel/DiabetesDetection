@@ -39,8 +39,8 @@ if __name__ == "__main__":
     # 2: Gradient Boosting
     # 3: XGBoost
 
-    # For example, if I want to combine the thumbNail dataset
-    # with PCA and the AdaBoost technique I would:
+    # For example, if you want to combine the thumbNail dataset
+    # with PCA and the AdaBoost technique you would do:
     # Models(thumbNail, data=3, prePros=2, boostTec=1)
 
     # AdaBoost without preprocessing in thumbNail
