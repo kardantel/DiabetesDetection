@@ -1,6 +1,8 @@
-'''
-File containing the initial code of execution.
-'''
+"""
+Created by kardantel at 7/20/2021
+__author__ = 'Carlos Pimentel'
+__email__ = 'carlosdpimenteld@gmail.com'
+"""
 
 from models import Models
 from utils import Utils
