@@ -1,6 +1,6 @@
 # Boosting classifiers for detection of Diabetes Mellitus with Raman spectroscopy
 
-This repository presents the code created as a final Master's project with which a comparative analysis of the results is carried out by using the [AdaBoost](https://www.sciencedirect.com/science/article/pii/S002200009791504X "AdaBoost"), [Gradient Boosting](https://www.sciencedirect.com/science/article/abs/pii/S0167947301000652 "Gradient Boosting") and [XGBoost](https://dl.acm.org/doi/abs/10.1145/2939672.2939785 "XGBoost") boosting techniques, along with PCA and LDA dimensionality reduction techniques, in the dataset [Raman spectroscopy of Diabetes](https://www.kaggle.com/codina/raman-spectroscopy-of-diabetes "Raman spectroscopy of Diabetes"), in order to find the best performing model capable of classifying a patient as diabetic or non-diabetic.
+This repository presents the code created as a final Master degree project with a comparative analysis of the results is carried out by using the [AdaBoost](https://www.sciencedirect.com/science/article/pii/S002200009791504X "AdaBoost"), [Gradient Boosting](https://www.sciencedirect.com/science/article/abs/pii/S0167947301000652 "Gradient Boosting") and [XGBoost](https://dl.acm.org/doi/abs/10.1145/2939672.2939785 "XGBoost") boosting techniques, along with PCA and LDA dimensionality reduction techniques, in the dataset [Raman spectroscopy of Diabetes](https://www.kaggle.com/codina/raman-spectroscopy-of-diabetes "Raman spectroscopy of Diabetes"), in order to find the best performing model capable of classifying a patient as diabetic or non-diabetic.
 
 ### Features
 
@@ -14,7 +14,7 @@ This repository presents the code created as a final Master's project with which
 
 In `main.py` you can find the 4 data sets, named above, with which you can perform different combinations for the three boosting techniques and dimensionality reduction techniques.
 
-You must choose the data to use (data) that must match the variable 'dataset', the type of preprocessing (prePros) and the boosting technique to use (boostTec). The options are as follows:
+You must choose the data to use (`data`) that must match the variable 'dataset', the type of preprocessing (`prePros`) and the boosting technique to use (`boostTec`). The options are as follows:
 
 `data`: int, it must match with dataset used in the `df` variable. Options:
 1. innerArm (default)
